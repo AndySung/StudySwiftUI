@@ -12,7 +12,8 @@ struct StudySwiftUIApp: App {
     var body: some Scene {
         WindowGroup {
             //TextView()
-            StackView()
+//            StackView()
+            studyButtonView()
         }
     }
 }

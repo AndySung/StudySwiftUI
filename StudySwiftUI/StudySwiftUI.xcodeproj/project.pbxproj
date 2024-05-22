@@ -15,6 +15,9 @@
 		A1E3F5ED2BFB0A5200528FEA /* StudySwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5EC2BFB0A5200528FEA /* StudySwiftUIUITests.swift */; };
 		A1E3F5EF2BFB0A5200528FEA /* StudySwiftUIUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5EE2BFB0A5200528FEA /* StudySwiftUIUITestsLaunchTests.swift */; };
 		A1E3F5FC2BFC91FE00528FEA /* StackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5FB2BFC91FE00528FEA /* StackView.swift */; };
+		A1E3F5FE2BFD98DA00528FEA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5FD2BFD98DA00528FEA /* CardView.swift */; };
+		A1E3F6002BFD9F4400528FEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5FF2BFD9F4400528FEA /* ContentView.swift */; };
+		A1E3F6062BFDAD1000528FEA /* studyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F6052BFDAD1000528FEA /* studyButtonView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,9 @@
 		A1E3F5EC2BFB0A5200528FEA /* StudySwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIUITests.swift; sourceTree = "<group>"; };
 		A1E3F5EE2BFB0A5200528FEA /* StudySwiftUIUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		A1E3F5FB2BFC91FE00528FEA /* StackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StackView.swift; sourceTree = "<group>"; };
+		A1E3F5FD2BFD98DA00528FEA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		A1E3F5FF2BFD9F4400528FEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A1E3F6052BFDAD1000528FEA /* studyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyButtonView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,11 +102,13 @@
 		A1E3F5D02BFB0A4F00528FEA /* StudySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A1E3F6042BFDACF100528FEA /* Buttonview */,
+				A1E3F6032BFDACDF00528FEA /* stackView */,
+				A1E3F6022BFDACC800528FEA /* TextView */,
+				A1E3F6012BFDAC7C00528FEA /* scrollview */,
 				A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */,
-				A1E3F5D32BFB0A4F00528FEA /* TextView.swift */,
 				A1E3F5D52BFB0A5100528FEA /* Assets.xcassets */,
 				A1E3F5D72BFB0A5100528FEA /* Preview Content */,
-				A1E3F5FB2BFC91FE00528FEA /* StackView.swift */,
 			);
 			path = StudySwiftUI;
 			sourceTree = "<group>";
@@ -128,6 +136,39 @@
 				A1E3F5EE2BFB0A5200528FEA /* StudySwiftUIUITestsLaunchTests.swift */,
 			);
 			path = StudySwiftUIUITests;
+			sourceTree = "<group>";
+		};
+		A1E3F6012BFDAC7C00528FEA /* scrollview */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3F5FD2BFD98DA00528FEA /* CardView.swift */,
+				A1E3F5FF2BFD9F4400528FEA /* ContentView.swift */,
+			);
+			path = scrollview;
+			sourceTree = "<group>";
+		};
+		A1E3F6022BFDACC800528FEA /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3F5D32BFB0A4F00528FEA /* TextView.swift */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		A1E3F6032BFDACDF00528FEA /* stackView */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3F5FB2BFC91FE00528FEA /* StackView.swift */,
+			);
+			path = stackView;
+			sourceTree = "<group>";
+		};
+		A1E3F6042BFDACF100528FEA /* Buttonview */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3F6052BFDAD1000528FEA /* studyButtonView.swift */,
+			);
+			path = Buttonview;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,7 +302,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */,
+				A1E3F6002BFD9F4400528FEA /* ContentView.swift in Sources */,
+				A1E3F5FE2BFD98DA00528FEA /* CardView.swift in Sources */,
 				A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */,
+				A1E3F6062BFDAD1000528FEA /* studyButtonView.swift in Sources */,
 				A1E3F5FC2BFC91FE00528FEA /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
