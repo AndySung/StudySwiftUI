@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A17B2F782C004E540073A226 /* PaintShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F772C004E540073A226 /* PaintShapeView.swift */; };
+		A17B2F7B2C0091A00073A226 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F7A2C0091A00073A226 /* AnimationView.swift */; };
 		A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */; };
 		A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D32BFB0A4F00528FEA /* TextView.swift */; };
 		A1E3F5D62BFB0A5100528FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E3F5D52BFB0A5100528FEA /* Assets.xcassets */; };
@@ -18,6 +20,7 @@
 		A1E3F5FE2BFD98DA00528FEA /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5FD2BFD98DA00528FEA /* CardView.swift */; };
 		A1E3F6002BFD9F4400528FEA /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5FF2BFD9F4400528FEA /* ContentView.swift */; };
 		A1E3F6062BFDAD1000528FEA /* studyButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F6052BFDAD1000528FEA /* studyButtonView.swift */; };
+		A1E3F6092BFDBB0D00528FEA /* SwiftUIStateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F6082BFDBB0D00528FEA /* SwiftUIStateView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		A17B2F772C004E540073A226 /* PaintShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintShapeView.swift; sourceTree = "<group>"; };
+		A17B2F7A2C0091A00073A226 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		A1E3F5CE2BFB0A4F00528FEA /* StudySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIApp.swift; sourceTree = "<group>"; };
 		A1E3F5D32BFB0A4F00528FEA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -52,6 +57,7 @@
 		A1E3F5FD2BFD98DA00528FEA /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		A1E3F5FF2BFD9F4400528FEA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A1E3F6052BFDAD1000528FEA /* studyButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = studyButtonView.swift; sourceTree = "<group>"; };
+		A1E3F6082BFDBB0D00528FEA /* SwiftUIStateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIStateView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +85,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A17B2F762C004E360073A226 /* paintView */ = {
+			isa = PBXGroup;
+			children = (
+				A17B2F772C004E540073A226 /* PaintShapeView.swift */,
+			);
+			path = paintView;
+			sourceTree = "<group>";
+		};
+		A17B2F792C00918B0073A226 /* animationView */ = {
+			isa = PBXGroup;
+			children = (
+				A17B2F7A2C0091A00073A226 /* AnimationView.swift */,
+			);
+			path = animationView;
+			sourceTree = "<group>";
+		};
 		A1E3F5C52BFB0A4E00528FEA = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +124,9 @@
 		A1E3F5D02BFB0A4F00528FEA /* StudySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A17B2F792C00918B0073A226 /* animationView */,
+				A17B2F762C004E360073A226 /* paintView */,
+				A1E3F6072BFDBAED00528FEA /* swiftuistate */,
 				A1E3F6042BFDACF100528FEA /* Buttonview */,
 				A1E3F6032BFDACDF00528FEA /* stackView */,
 				A1E3F6022BFDACC800528FEA /* TextView */,
@@ -169,6 +194,14 @@
 				A1E3F6052BFDAD1000528FEA /* studyButtonView.swift */,
 			);
 			path = Buttonview;
+			sourceTree = "<group>";
+		};
+		A1E3F6072BFDBAED00528FEA /* swiftuistate */ = {
+			isa = PBXGroup;
+			children = (
+				A1E3F6082BFDBB0D00528FEA /* SwiftUIStateView.swift */,
+			);
+			path = swiftuistate;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -302,9 +335,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */,
+				A17B2F782C004E540073A226 /* PaintShapeView.swift in Sources */,
+				A1E3F6092BFDBB0D00528FEA /* SwiftUIStateView.swift in Sources */,
 				A1E3F6002BFD9F4400528FEA /* ContentView.swift in Sources */,
 				A1E3F5FE2BFD98DA00528FEA /* CardView.swift in Sources */,
 				A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */,
+				A17B2F7B2C0091A00073A226 /* AnimationView.swift in Sources */,
 				A1E3F6062BFDAD1000528FEA /* studyButtonView.swift in Sources */,
 				A1E3F5FC2BFC91FE00528FEA /* StackView.swift in Sources */,
 			);
