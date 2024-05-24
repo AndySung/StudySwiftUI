@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		A17B2F782C004E540073A226 /* PaintShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F772C004E540073A226 /* PaintShapeView.swift */; };
 		A17B2F7B2C0091A00073A226 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F7A2C0091A00073A226 /* AnimationView.swift */; };
+		A17B2F7E2C0097DF0073A226 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F7D2C0097DF0073A226 /* ListView.swift */; };
 		A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */; };
 		A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D32BFB0A4F00528FEA /* TextView.swift */; };
 		A1E3F5D62BFB0A5100528FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E3F5D52BFB0A5100528FEA /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 /* Begin PBXFileReference section */
 		A17B2F772C004E540073A226 /* PaintShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintShapeView.swift; sourceTree = "<group>"; };
 		A17B2F7A2C0091A00073A226 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
+		A17B2F7D2C0097DF0073A226 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		A1E3F5CE2BFB0A4F00528FEA /* StudySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIApp.swift; sourceTree = "<group>"; };
 		A1E3F5D32BFB0A4F00528FEA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -101,6 +103,14 @@
 			path = animationView;
 			sourceTree = "<group>";
 		};
+		A17B2F7C2C0097D10073A226 /* ListView */ = {
+			isa = PBXGroup;
+			children = (
+				A17B2F7D2C0097DF0073A226 /* ListView.swift */,
+			);
+			path = ListView;
+			sourceTree = "<group>";
+		};
 		A1E3F5C52BFB0A4E00528FEA = {
 			isa = PBXGroup;
 			children = (
@@ -124,6 +134,7 @@
 		A1E3F5D02BFB0A4F00528FEA /* StudySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A17B2F7C2C0097D10073A226 /* ListView */,
 				A17B2F792C00918B0073A226 /* animationView */,
 				A17B2F762C004E360073A226 /* paintView */,
 				A1E3F6072BFDBAED00528FEA /* swiftuistate */,
@@ -336,6 +347,7 @@
 			files = (
 				A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */,
 				A17B2F782C004E540073A226 /* PaintShapeView.swift in Sources */,
+				A17B2F7E2C0097DF0073A226 /* ListView.swift in Sources */,
 				A1E3F6092BFDBB0D00528FEA /* SwiftUIStateView.swift in Sources */,
 				A1E3F6002BFD9F4400528FEA /* ContentView.swift in Sources */,
 				A1E3F5FE2BFD98DA00528FEA /* CardView.swift in Sources */,
