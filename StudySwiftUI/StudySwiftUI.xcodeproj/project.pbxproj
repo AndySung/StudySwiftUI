@@ -10,6 +10,7 @@
 		A17B2F782C004E540073A226 /* PaintShapeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F772C004E540073A226 /* PaintShapeView.swift */; };
 		A17B2F7B2C0091A00073A226 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F7A2C0091A00073A226 /* AnimationView.swift */; };
 		A17B2F7E2C0097DF0073A226 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F7D2C0097DF0073A226 /* ListView.swift */; };
+		A1A4625E2C05A30C00F28E08 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4625D2C05A30C00F28E08 /* Restaurant.swift */; };
 		A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */; };
 		A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D32BFB0A4F00528FEA /* TextView.swift */; };
 		A1E3F5D62BFB0A5100528FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E3F5D52BFB0A5100528FEA /* Assets.xcassets */; };
@@ -45,6 +46,7 @@
 		A17B2F772C004E540073A226 /* PaintShapeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaintShapeView.swift; sourceTree = "<group>"; };
 		A17B2F7A2C0091A00073A226 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		A17B2F7D2C0097DF0073A226 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		A1A4625D2C05A30C00F28E08 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
 		A1E3F5CE2BFB0A4F00528FEA /* StudySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIApp.swift; sourceTree = "<group>"; };
 		A1E3F5D32BFB0A4F00528FEA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				A17B2F7D2C0097DF0073A226 /* ListView.swift */,
+				A1A4625D2C05A30C00F28E08 /* Restaurant.swift */,
 			);
 			path = ListView;
 			sourceTree = "<group>";
@@ -345,6 +348,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1A4625E2C05A30C00F28E08 /* Restaurant.swift in Sources */,
 				A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */,
 				A17B2F782C004E540073A226 /* PaintShapeView.swift in Sources */,
 				A17B2F7E2C0097DF0073A226 /* ListView.swift in Sources */,

@@ -19,6 +19,8 @@ struct AnimationView: View {
     @State private var recordBegin = false
     @State private var recording = false
     
+    @State private var show = false
+    
     var body: some View {
         
         ScrollView {
@@ -173,9 +175,72 @@ struct AnimationView: View {
                     }
                 }
                 
+                
+                //转场动画
+                VStack {
+                    RoundedRectangle(cornerRadius: 10)
+                        .frame(width: 300, height: 300)
+                        .foregroundColor(.green)
+                        .overlay(
+                            Text("Show details")
+                                .font(.system(.largeTitle, design: .rounded))
+                                .bold()
+                                .foregroundColor(.white)
+                        )
+                    
+                    if show {
+                        RoundedRectangle(cornerRadius: 10)
+                            .frame(width: 300, height: 300)
+                            .foregroundColor(.purple)
+                            .overlay(
+                                Text("Well, here is the details")
+                                .font(.system(.largeTitle, design: .rounded))
+                                .bold()
+                                .foregroundColor(.white)
+                            )
+                            //两种动画效果混合
+                            //.transition(AnyTransition.offset(x: -600, y: 0).combined(with: .scale))
+                            //以位移轉場（offset transition） 取代縮放转场
+                            //.transition(.offset(x: -600, y: 0))
+                            //修飾器會帶入⼀個 AnyTransition 型別的參數。 這裡我們使⽤scale 轉
+                            //場， 錨點（anchor ） 設定為 .bottom
+                            //.transition(.scale(scale: 0, anchor: .bottom))
+                            //需要混合三個轉場效果的話， 則可以參考以下這⾏的範例程式碼：
+                            //.transition(AnyTransition.offset(x: -600, y: 0).combined(with: .scale).combined(with: .opacity))
+                            //使用扩展使用动画(对称动画)
+                            //.transition(.offsetScaleOpacity)
+                            //使用扩展使用动画(不对称动画)
+                            .transition(.scaleAndOffset)
+                        
+                    }
+                   
+                }.onTapGesture {
+                    withAnimation(Animation.spring()) {
+                        self.show.toggle()
+                    }
+                }
+                
             }
         }
       
+    }
+}
+
+//利用扩展使用动画
+//对称转场，转场进出一样
+extension AnyTransition {
+    static var offsetScaleOpacity: AnyTransition {
+        AnyTransition.offset(x: -600, y: 0).combined(with: .scale).combined(with:.opacity)
+    }
+}
+
+//不对称转场，进入动画和退出动画不一样
+extension AnyTransition {
+    static var scaleAndOffset: AnyTransition {
+        AnyTransition.asymmetric(
+            insertion: .scale(scale: 0, anchor: .bottom),
+            removal: .offset(x: -600, y: 00)
+        )
     }
 }
 
