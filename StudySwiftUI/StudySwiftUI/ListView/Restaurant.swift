@@ -6,7 +6,8 @@
 //
 
 import Foundation
-struct Restaurant {
+struct Restaurant: Identifiable{
+    var id = UUID()
     var name: String
     var image: String
 

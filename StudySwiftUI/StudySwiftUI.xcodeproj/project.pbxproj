@@ -114,6 +114,13 @@
 			path = ListView;
 			sourceTree = "<group>";
 		};
+		A1BB6AE12C0B8F910005ED1B /* NavigationView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = NavigationView;
+			sourceTree = "<group>";
+		};
 		A1E3F5C52BFB0A4E00528FEA = {
 			isa = PBXGroup;
 			children = (
@@ -137,6 +144,7 @@
 		A1E3F5D02BFB0A4F00528FEA /* StudySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A1BB6AE12C0B8F910005ED1B /* NavigationView */,
 				A17B2F7C2C0097D10073A226 /* ListView */,
 				A17B2F792C00918B0073A226 /* animationView */,
 				A17B2F762C004E360073A226 /* paintView */,
