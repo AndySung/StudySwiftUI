@@ -11,6 +11,9 @@
 		A17B2F7B2C0091A00073A226 /* AnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F7A2C0091A00073A226 /* AnimationView.swift */; };
 		A17B2F7E2C0097DF0073A226 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17B2F7D2C0097DF0073A226 /* ListView.swift */; };
 		A1A4625E2C05A30C00F28E08 /* Restaurant.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1A4625D2C05A30C00F28E08 /* Restaurant.swift */; };
+		A1BB6AE32C0B90910005ED1B /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB6AE22C0B90910005ED1B /* NavigationView.swift */; };
+		A1BB6AE62C0CCD730005ED1B /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB6AE52C0CCD730005ED1B /* ArticleDetailView.swift */; };
+		A1BB6AE82C0CCECD0005ED1B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB6AE72C0CCECD0005ED1B /* Article.swift */; };
 		A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */; };
 		A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D32BFB0A4F00528FEA /* TextView.swift */; };
 		A1E3F5D62BFB0A5100528FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E3F5D52BFB0A5100528FEA /* Assets.xcassets */; };
@@ -47,6 +50,9 @@
 		A17B2F7A2C0091A00073A226 /* AnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationView.swift; sourceTree = "<group>"; };
 		A17B2F7D2C0097DF0073A226 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
 		A1A4625D2C05A30C00F28E08 /* Restaurant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Restaurant.swift; sourceTree = "<group>"; };
+		A1BB6AE22C0B90910005ED1B /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
+		A1BB6AE52C0CCD730005ED1B /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
+		A1BB6AE72C0CCECD0005ED1B /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		A1E3F5CE2BFB0A4F00528FEA /* StudySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIApp.swift; sourceTree = "<group>"; };
 		A1E3F5D32BFB0A4F00528FEA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -117,8 +123,18 @@
 		A1BB6AE12C0B8F910005ED1B /* NavigationView */ = {
 			isa = PBXGroup;
 			children = (
+				A1BB6AE22C0B90910005ED1B /* NavigationView.swift */,
 			);
 			path = NavigationView;
+			sourceTree = "<group>";
+		};
+		A1BB6AE42C0CCD5D0005ED1B /* ArticleDetailView */ = {
+			isa = PBXGroup;
+			children = (
+				A1BB6AE72C0CCECD0005ED1B /* Article.swift */,
+				A1BB6AE52C0CCD730005ED1B /* ArticleDetailView.swift */,
+			);
+			path = ArticleDetailView;
 			sourceTree = "<group>";
 		};
 		A1E3F5C52BFB0A4E00528FEA = {
@@ -144,6 +160,7 @@
 		A1E3F5D02BFB0A4F00528FEA /* StudySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A1BB6AE42C0CCD5D0005ED1B /* ArticleDetailView */,
 				A1BB6AE12C0B8F910005ED1B /* NavigationView */,
 				A17B2F7C2C0097D10073A226 /* ListView */,
 				A17B2F792C00918B0073A226 /* animationView */,
@@ -356,7 +373,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1BB6AE82C0CCECD0005ED1B /* Article.swift in Sources */,
 				A1A4625E2C05A30C00F28E08 /* Restaurant.swift in Sources */,
+				A1BB6AE62C0CCD730005ED1B /* ArticleDetailView.swift in Sources */,
 				A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */,
 				A17B2F782C004E540073A226 /* PaintShapeView.swift in Sources */,
 				A17B2F7E2C0097DF0073A226 /* ListView.swift in Sources */,
@@ -366,6 +385,7 @@
 				A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */,
 				A17B2F7B2C0091A00073A226 /* AnimationView.swift in Sources */,
 				A1E3F6062BFDAD1000528FEA /* studyButtonView.swift in Sources */,
+				A1BB6AE32C0B90910005ED1B /* NavigationView.swift in Sources */,
 				A1E3F5FC2BFC91FE00528FEA /* StackView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
