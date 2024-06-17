@@ -14,6 +14,13 @@
 		A1BB6AE32C0B90910005ED1B /* NavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB6AE22C0B90910005ED1B /* NavigationView.swift */; };
 		A1BB6AE62C0CCD730005ED1B /* ArticleDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB6AE52C0CCD730005ED1B /* ArticleDetailView.swift */; };
 		A1BB6AE82C0CCECD0005ED1B /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BB6AE72C0CCECD0005ED1B /* Article.swift */; };
+		A1BECA2A2C1BFF1300EA544E /* contentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA292C1BFF1300EA544E /* contentView.swift */; };
+		A1BECA2C2C1BFFE100EA544E /* ArticleDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA2B2C1BFFE100EA544E /* ArticleDetailsView.swift */; };
+		A1BECA2F2C1DEC3900EA544E /* ArticleDetailViewSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA2E2C1DEC3900EA544E /* ArticleDetailViewSheet.swift */; };
+		A1BECA312C1DEC5400EA544E /* SheetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA302C1DEC5400EA544E /* SheetView.swift */; };
+		A1BECA362C1DEF3F00EA544E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA352C1DEF3F00EA544E /* SettingView.swift */; };
+		A1BECA382C1DF87500EA544E /* ContentViewFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA372C1DF87500EA544E /* ContentViewFood.swift */; };
+		A1BECA3A2C1ED87800EA544E /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA392C1ED87800EA544E /* SettingStore.swift */; };
 		A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */; };
 		A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D32BFB0A4F00528FEA /* TextView.swift */; };
 		A1E3F5D62BFB0A5100528FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E3F5D52BFB0A5100528FEA /* Assets.xcassets */; };
@@ -53,6 +60,13 @@
 		A1BB6AE22C0B90910005ED1B /* NavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationView.swift; sourceTree = "<group>"; };
 		A1BB6AE52C0CCD730005ED1B /* ArticleDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailView.swift; sourceTree = "<group>"; };
 		A1BB6AE72C0CCECD0005ED1B /* Article.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
+		A1BECA292C1BFF1300EA544E /* contentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = contentView.swift; sourceTree = "<group>"; };
+		A1BECA2B2C1BFFE100EA544E /* ArticleDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArticleDetailsView.swift; sourceTree = "<group>"; };
+		A1BECA2E2C1DEC3900EA544E /* ArticleDetailViewSheet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArticleDetailViewSheet.swift; sourceTree = "<group>"; };
+		A1BECA302C1DEC5400EA544E /* SheetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SheetView.swift; sourceTree = "<group>"; };
+		A1BECA352C1DEF3F00EA544E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
+		A1BECA372C1DF87500EA544E /* ContentViewFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewFood.swift; sourceTree = "<group>"; };
+		A1BECA392C1ED87800EA544E /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
 		A1E3F5CE2BFB0A4F00528FEA /* StudySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIApp.swift; sourceTree = "<group>"; };
 		A1E3F5D32BFB0A4F00528FEA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -133,8 +147,29 @@
 			children = (
 				A1BB6AE72C0CCECD0005ED1B /* Article.swift */,
 				A1BB6AE52C0CCD730005ED1B /* ArticleDetailView.swift */,
+				A1BECA292C1BFF1300EA544E /* contentView.swift */,
+				A1BECA2B2C1BFFE100EA544E /* ArticleDetailsView.swift */,
 			);
 			path = ArticleDetailView;
+			sourceTree = "<group>";
+		};
+		A1BECA2D2C1D198600EA544E /* sheetView */ = {
+			isa = PBXGroup;
+			children = (
+				A1BECA2E2C1DEC3900EA544E /* ArticleDetailViewSheet.swift */,
+				A1BECA302C1DEC5400EA544E /* SheetView.swift */,
+			);
+			path = sheetView;
+			sourceTree = "<group>";
+		};
+		A1BECA322C1DED3900EA544E /* swiftUIform */ = {
+			isa = PBXGroup;
+			children = (
+				A1BECA352C1DEF3F00EA544E /* SettingView.swift */,
+				A1BECA372C1DF87500EA544E /* ContentViewFood.swift */,
+				A1BECA392C1ED87800EA544E /* SettingStore.swift */,
+			);
+			path = swiftUIform;
 			sourceTree = "<group>";
 		};
 		A1E3F5C52BFB0A4E00528FEA = {
@@ -160,6 +195,8 @@
 		A1E3F5D02BFB0A4F00528FEA /* StudySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A1BECA322C1DED3900EA544E /* swiftUIform */,
+				A1BECA2D2C1D198600EA544E /* sheetView */,
 				A1BB6AE42C0CCD5D0005ED1B /* ArticleDetailView */,
 				A1BB6AE12C0B8F910005ED1B /* NavigationView */,
 				A17B2F7C2C0097D10073A226 /* ListView */,
@@ -374,6 +411,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				A1BB6AE82C0CCECD0005ED1B /* Article.swift in Sources */,
+				A1BECA362C1DEF3F00EA544E /* SettingView.swift in Sources */,
+				A1BECA382C1DF87500EA544E /* ContentViewFood.swift in Sources */,
 				A1A4625E2C05A30C00F28E08 /* Restaurant.swift in Sources */,
 				A1BB6AE62C0CCD730005ED1B /* ArticleDetailView.swift in Sources */,
 				A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */,
@@ -381,7 +420,12 @@
 				A17B2F7E2C0097DF0073A226 /* ListView.swift in Sources */,
 				A1E3F6092BFDBB0D00528FEA /* SwiftUIStateView.swift in Sources */,
 				A1E3F6002BFD9F4400528FEA /* ContentView.swift in Sources */,
+				A1BECA2C2C1BFFE100EA544E /* ArticleDetailsView.swift in Sources */,
 				A1E3F5FE2BFD98DA00528FEA /* CardView.swift in Sources */,
+				A1BECA312C1DEC5400EA544E /* SheetView.swift in Sources */,
+				A1BECA3A2C1ED87800EA544E /* SettingStore.swift in Sources */,
+				A1BECA2F2C1DEC3900EA544E /* ArticleDetailViewSheet.swift in Sources */,
+				A1BECA2A2C1BFF1300EA544E /* contentView.swift in Sources */,
 				A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */,
 				A17B2F7B2C0091A00073A226 /* AnimationView.swift in Sources */,
 				A1E3F6062BFDAD1000528FEA /* studyButtonView.swift in Sources */,
