@@ -21,6 +21,8 @@
 		A1BECA362C1DEF3F00EA544E /* SettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA352C1DEF3F00EA544E /* SettingView.swift */; };
 		A1BECA382C1DF87500EA544E /* ContentViewFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA372C1DF87500EA544E /* ContentViewFood.swift */; };
 		A1BECA3A2C1ED87800EA544E /* SettingStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA392C1ED87800EA544E /* SettingStore.swift */; };
+		A1BECA3F2C21450500EA544E /* RegisterFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA3E2C21450500EA544E /* RegisterFormView.swift */; };
+		A1BECA412C214FBC00EA544E /* UserRegistrationViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1BECA402C214FBC00EA544E /* UserRegistrationViewModel.swift */; };
 		A1E3F5D22BFB0A4F00528FEA /* StudySwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */; };
 		A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1E3F5D32BFB0A4F00528FEA /* TextView.swift */; };
 		A1E3F5D62BFB0A5100528FEA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1E3F5D52BFB0A5100528FEA /* Assets.xcassets */; };
@@ -67,6 +69,8 @@
 		A1BECA352C1DEF3F00EA544E /* SettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingView.swift; sourceTree = "<group>"; };
 		A1BECA372C1DF87500EA544E /* ContentViewFood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewFood.swift; sourceTree = "<group>"; };
 		A1BECA392C1ED87800EA544E /* SettingStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingStore.swift; sourceTree = "<group>"; };
+		A1BECA3E2C21450500EA544E /* RegisterFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterFormView.swift; sourceTree = "<group>"; };
+		A1BECA402C214FBC00EA544E /* UserRegistrationViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRegistrationViewModel.swift; sourceTree = "<group>"; };
 		A1E3F5CE2BFB0A4F00528FEA /* StudySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1E3F5D12BFB0A4F00528FEA /* StudySwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudySwiftUIApp.swift; sourceTree = "<group>"; };
 		A1E3F5D32BFB0A4F00528FEA /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
@@ -172,6 +176,15 @@
 			path = swiftUIform;
 			sourceTree = "<group>";
 		};
+		A1BECA3D2C2144E700EA544E /* registerForm */ = {
+			isa = PBXGroup;
+			children = (
+				A1BECA3E2C21450500EA544E /* RegisterFormView.swift */,
+				A1BECA402C214FBC00EA544E /* UserRegistrationViewModel.swift */,
+			);
+			path = registerForm;
+			sourceTree = "<group>";
+		};
 		A1E3F5C52BFB0A4E00528FEA = {
 			isa = PBXGroup;
 			children = (
@@ -195,6 +208,7 @@
 		A1E3F5D02BFB0A4F00528FEA /* StudySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				A1BECA3D2C2144E700EA544E /* registerForm */,
 				A1BECA322C1DED3900EA544E /* swiftUIform */,
 				A1BECA2D2C1D198600EA544E /* sheetView */,
 				A1BB6AE42C0CCD5D0005ED1B /* ArticleDetailView */,
@@ -412,9 +426,11 @@
 			files = (
 				A1BB6AE82C0CCECD0005ED1B /* Article.swift in Sources */,
 				A1BECA362C1DEF3F00EA544E /* SettingView.swift in Sources */,
+				A1BECA412C214FBC00EA544E /* UserRegistrationViewModel.swift in Sources */,
 				A1BECA382C1DF87500EA544E /* ContentViewFood.swift in Sources */,
 				A1A4625E2C05A30C00F28E08 /* Restaurant.swift in Sources */,
 				A1BB6AE62C0CCD730005ED1B /* ArticleDetailView.swift in Sources */,
+				A1BECA3F2C21450500EA544E /* RegisterFormView.swift in Sources */,
 				A1E3F5D42BFB0A4F00528FEA /* TextView.swift in Sources */,
 				A17B2F782C004E540073A226 /* PaintShapeView.swift in Sources */,
 				A17B2F7E2C0097DF0073A226 /* ListView.swift in Sources */,

@@ -43,7 +43,7 @@ struct ContentViewFood: View {
     var body: some View {
         NavigationStack {
             List {
-                ForEach(foodRestaurants) { foodRestaurant in
+                ForEach(foodRestaurants.sorted(by: self.settingStore.displayOrder.predicate())) { foodRestaurant in
                     BasicFoodImageRow(restaurantFood: foodRestaurant)
                         .contextMenu {
                             
