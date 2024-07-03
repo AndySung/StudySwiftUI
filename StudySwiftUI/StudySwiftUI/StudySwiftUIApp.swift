@@ -13,7 +13,8 @@ struct StudySwiftUIApp: App {
         WindowGroup {
             //TextView()
 //            StackView()
-            studyButtonView()
+           // studyButtonView()
+            BasicBottomSheet()
         }
     }
 }
